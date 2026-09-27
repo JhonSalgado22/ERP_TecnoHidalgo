@@ -1,0 +1,27 @@
+<odoo>
+    <template id="landing_page" name="TecnoHidalgo Landing Page">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure">
+                <section class="th-hero">
+                    <div class="container py-5">
+                        <p class="text-uppercase fw-bold">TecnoHidalgo Comercial</p>
+                        <h1 class="display-3 fw-bold">Tecnología para tu empresa</h1>
+                        <p class="lead">Equipos y accesorios tecnológicos para empresas, escuelas y profesionales.</p>
+                        <a href="#productos" class="btn btn-primary btn-lg">Ver productos</a>
+                    </div>
+                </section>
+                <section id="productos" class="py-5">
+                    <div class="container">
+                        <h2 class="fw-bold mb-4">Nuestros productos</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4"><div class="card h-100"><div class="card-body"><h3>Computadoras</h3><p>Laptops y equipos para trabajo y estudio.</p></div></div></div>
+                            <div class="col-md-4"><div class="card h-100"><div class="card-body"><h3>Accesorios</h3><p>Monitores, teclados, mouse y periféricos.</p></div></div></div>
+                            <div class="col-md-4"><div class="card h-100"><div class="card-body"><h3>Almacenamiento</h3><p>SSD, memorias USB y accesorios.</p></div></div></div>
+                        </div>
+                        <div class="text-center mt-5"><a href="/contactus" class="btn btn-outline-primary btn-lg">Solicitar información</a></div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

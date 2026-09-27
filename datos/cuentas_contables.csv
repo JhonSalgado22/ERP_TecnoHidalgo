@@ -1,0 +1,6 @@
+﻿Código,Cuenta,Tipo,Uso
+100000,Caja,Activo corriente,Efectivo disponible
+102000,Bancos,Activo corriente,Dinero en bancos
+110000,Clientes,Activo corriente,Cuentas por cobrar
+200000,Proveedores,Pasivo corriente,Cuentas por pagar
+400000,Ventas,Ingresos,Ingresos por venta de productos
